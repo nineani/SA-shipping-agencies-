@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* 배송요청 테이블 */
+.set_url{
+    border-top: 2px solid #404040;
+    padding: 10px 0;
+}
+.set_url span{
+    font-size: 14px;
+}
+.set_url input[type=url]{
+    margin: 0 20px;
+    outline: none;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    font-family: '에스코어드림R', sans-serif;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+.shp_table{
+    width: 100%;
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+}
+.shp_table td{
+    padding: 8px 5px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.shp_table tr:last-child td{
+    border-bottom: none;
+}
+.shp_table td:last-child{
+    border-right: none;
+}
+.shp_table .s_tit{
+    font-size: 12px;
+    font-weight: 700;
+    vertical-align: middle;
+    background: #fafafa;
+    padding: 8px 20px 8px 10px;
+}
+.shp_table td > input[type=text], .shp_table td > input[type=password], .shp_table td > input[type=email], .shp_table td > input[type=tel], .shp_table td > select{
+    display: block;
+    outline: none;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    font-family: '에스코어드림R', sans-serif;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+.shp_table td > input[name=address]{
+    width: 663px;
+}
+.shp_table td > select{
+    margin-bottom: 6px;
+    width: 210px;
+    height: 24px;
+}
+.point_t{
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #d44;
+}
+form[name=shp_] .btn_wrap, form[name=shp_2] .btn_wrap{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+form[name=shp_] .btn_wrap .btn_custom, form[name=shp_2] .btn_wrap .btn_custom{
+    margin: 15px 0;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: '에스코어드림R', sans-serif;
+    font-weight: 700;
+}
+.imgPreview{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+.imgPreview img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pass_num_setter{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.pass_num_setter span{
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 5px;
+    position: absolute;
+    left: 10px;
+}
+.pass_num_setter input[name=pass_num]{
+    padding: 2px 4px 2px 20px !important;
+}
+.pass_num_setter a {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #404040;
+    margin-left: 10px;
+}
+.shp_table td > label[for=pass_chk1], .shp_table td > label[for=pass_chk2]{
+    font-size: 12px;
+    color: #d44;
+}
+
+#term2, #term3{
+    display: none;
+}
+
+/* 배송내역 세트 */
+.table_set tr td:nth-child(1), .table_set tr td:nth-child(2), .table_set tr td:nth-child(4){
+    width: 80px;
+}
+.table_set tr td:nth-child(5){
+    width: 100px;
+}
+.table_set tr td a{
+    color: #00f;
+    text-decoration: underline;
+}
